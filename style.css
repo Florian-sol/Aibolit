@@ -87,7 +87,7 @@ body {
 .uh {
     flex-wrap: wrap;
     height: 915px;
-    background-image: url("img/catdog.svg");
+    background-image: url("catdog.svg");
     background-repeat: no-repeat;
     background-position: 74%;
 }
@@ -691,7 +691,7 @@ body {
 .uh {
     flex-wrap: wrap;
     height: 915px;
-    background-image: url("img/catdog.svg");
+    background-image: url("catdog.svg");
     background-repeat: no-repeat;
     background-position: 100%;
 }
@@ -1863,4 +1863,3 @@ margin-top: 10px;
     margin-top: 70px;
 }
 }
-
