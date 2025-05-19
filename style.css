@@ -87,7 +87,7 @@ body {
 .uh {
     flex-wrap: wrap;
     height: 915px;
-    background-image: url("catdog.svg");
+    background-image: url("img/catdog.svg");
     background-repeat: no-repeat;
     background-position: 74%;
 }
@@ -689,9 +689,10 @@ body {
 }
 
 .uh {
+    min-width: 992px;
     flex-wrap: wrap;
     height: 915px;
-    background-image: url("catdog.svg");
+    background-image: url("img/catdog.svg");
     background-repeat: no-repeat;
     background-position: 100%;
 }
@@ -738,7 +739,7 @@ body {
 
 .phone {
     margin-top: -35px;
-    margin-left: 500px;
+    margin-left: 320px;
     color: #59443F;
     font-weight: bold;
     font-size: 24px;
@@ -748,15 +749,15 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: 1352px;
+    width: 992px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .card {
     box-shadow: 3px 3px  rgb(245, 241, 240);
     border-radius: 20px;
-    max-width: 320px;
+    max-width: 220px;
     height: 220px;
     flex-direction: column;
     flex-wrap: wrap;
@@ -769,7 +770,7 @@ body {
     margin-top: 25px;
     margin-left: 24px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 900px;
     color: #59443F;
 }
@@ -781,7 +782,7 @@ body {
 
 .card-img {
     margin-bottom: 5%;
-    margin-left: 60%;
+    margin-left: 50%;
 }
 
 .card-img img {
@@ -791,7 +792,7 @@ body {
 
 .stupid {
     margin-bottom: 5%;
-    margin-left: 50%;
+    margin-left: 38%;
 }
 
 .stupid2 {
@@ -806,8 +807,8 @@ body {
 
 .workers {
     margin-top: 150px;
-    max-width: 1920px;
-    height: 1280px;
+    max-width: 992px;
+    height: 1240px;
     flex-direction: column;
     align-items: center;
     background-color: #FBF8F8;
@@ -816,7 +817,7 @@ body {
 .com-story {
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    padding-top: 180px;
+    padding-top: 110px;
     text-align: center;
     font-size: 3rem;
     font-weight: 800;
@@ -844,7 +845,7 @@ body {
 .our-workers {
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    padding-top: 100px;
+    padding-top: 70px;
     text-align: center;
     font-size: 3rem;
     font-weight: 800;
@@ -853,7 +854,7 @@ body {
 }
 
 .carousel {
-    width: 1253px;
+    width: 992px;
     height: 178px;
     position: relative;
     padding-top: 270px;
@@ -903,16 +904,16 @@ body {
 }
 
 .btn-carousel.next {
-    right: 1rem;
+    right: 70px;
 }
 
 .btn-carousel.prev {
-    left: 1rem;
+    left: 70px;
 }
 
 .easy {
     font-family: 'Times New Roman', Times, serif;
-    min-height: 1139px;
+    min-height: 992px;
     flex-direction: column;
     align-items: center;
     background-repeat: no-repeat;
@@ -921,7 +922,7 @@ body {
 .quantity {
     font-size: 170px;
     color: #59443F;
-    margin-top: 316px;
+    margin-top: 280px;
     word-spacing: 5px;
 }
 
@@ -954,18 +955,19 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: 1640px;
+    width: 992px;
     margin: 0 auto;
     margin-top: 104px;
 }
 
 .card2 {
-    max-width: 484px;
+    max-width: 420px;
     height: 226px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 90px;
+    margin-left: 40px;
 }
 
 .card-title2 {
@@ -976,7 +978,7 @@ body {
 }
 
 .card-descr2 {
-    max-width: 360px;
+    max-width: 300px;
     margin-left: 2%;
     margin-top: -30px;
     font-size: 20px;
@@ -1050,12 +1052,12 @@ body {
 
 .help {
     background-color: #FFC59E;
-    max-width: 1920px;
+    max-width: 992px;
     max-height: 1080px;
 }
 
 .aaaa {
-    margin-left: 230px;
+    margin-left: 40px;
 }
 
 .soon {
@@ -1075,11 +1077,13 @@ body {
 }
 
 .dogtel {
-    margin-left: -130px;
+    display: none;
 }
 
 .doggie {
-    display: none;
+    background-image: url("img/doggie.svg");
+    height: 70px;
+    width: 60px;
 }
 
 .SOS {
@@ -1087,7 +1091,7 @@ body {
 }
 
 .info {
-    max-width: 1920px;
+    max-width: 992px;
     min-height: 1080px;
 }
 
@@ -1123,7 +1127,7 @@ body {
 }
 
 .address img {
-margin-top: 10px;
+    margin-top: 10px;
 }
 
 .geol {
@@ -1136,7 +1140,7 @@ margin-top: 10px;
 }
 
 .footer {
-    max-width: 1920px;
+    max-width: 992px;
     min-height: 469px;
     background-color: #59443F;
 }
@@ -1283,10 +1287,6 @@ body {
     min-width: 190px;
 }
 
-.burger-checkbox {
-  position: absolute;
-  visibility: hidden;
-}
 .burger {
   cursor: pointer;
   display: block;
@@ -1600,7 +1600,7 @@ body {
 }
 
 .card-descr2 {
-    min-width: 330px;
+    max-width: 360px;
     margin-left: 5%;
     margin-top: -30px;
     font-size: 20px;
@@ -1611,7 +1611,7 @@ body {
 }
 
 .stupid4 {
-    min-width: 280px;
+    max-width: 318px;
     margin-left: 6%;
     margin-top: -20px;
     font-size: 20px;
@@ -1633,7 +1633,7 @@ body {
 }
 
 .stupid6 {
-    min-width: 300px;
+    max-width: 318px;
     margin-left: 9.8%;
     margin-top: -30px;
     font-size: 20px;
@@ -1863,3 +1863,4 @@ margin-top: 10px;
     margin-top: 70px;
 }
 }
+
