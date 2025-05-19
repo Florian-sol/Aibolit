@@ -87,7 +87,7 @@ body {
 .uh {
     flex-wrap: wrap;
     height: 915px;
-    background-image: url("img/catdog.svg");
+    background-image: url("catdog.svg");
     background-repeat: no-repeat;
     background-position: 74%;
 }
@@ -692,7 +692,7 @@ body {
     min-width: 992px;
     flex-wrap: wrap;
     height: 915px;
-    background-image: url("img/catdog.svg");
+    background-image: url("catdog.svg");
     background-repeat: no-repeat;
     background-position: 100%;
 }
@@ -807,7 +807,6 @@ body {
 
 .workers {
     margin-top: 150px;
-    max-width: 992px;
     height: 1240px;
     flex-direction: column;
     align-items: center;
@@ -1052,12 +1051,13 @@ body {
 
 .help {
     background-color: #FFC59E;
-    max-width: 992px;
-    max-height: 1080px;
+    min-height: 800px;
+    margin-top: 7%;
 }
 
 .aaaa {
     margin-left: 40px;
+    margin-top: -160px;
 }
 
 .soon {
@@ -1066,7 +1066,7 @@ body {
 }
 
 .abtapp {
-    margin-top: 30px;
+    margin-top: 0px;
     font-size: 80px;
     color: white;
 }
@@ -1077,13 +1077,8 @@ body {
 }
 
 .dogtel {
-    display: none;
-}
-
-.doggie {
-    background-image: url("img/doggie.svg");
-    height: 70px;
-    width: 60px;
+    height: 600px;
+    margin-top: -40px;
 }
 
 .SOS {
@@ -1097,7 +1092,7 @@ body {
 
 .addresses {
     flex-direction: column;
-    margin-left: 230px;
+    margin-left:60px;
 }
 
 .contacts {
@@ -1135,8 +1130,9 @@ body {
 }
 
 .map {
-    margin-left: 70px;
-    margin-top: 150px;
+    margin-left: 1px;
+    margin-top: 130px;
+    width: 600px;
 }
 
 .footer {
@@ -1145,18 +1141,14 @@ body {
     background-color: #59443F;
 }
 
-.footer-img {
-    margin-top: -200px;
-    margin-left: 230px;
+.footer-img  {
+    margin-top: -350px;
+    margin-left: 300px;
 }
 
 .first {
-    margin-top: 43px;
-    margin-left: 22px;
-}
-
-.first p {
-    color: white;
+    margin-top: 70px;
+    margin-left: -320px;
 }
 
 .aibolit {
@@ -1177,13 +1169,13 @@ body {
 }
 
 .second {
-    margin-top: 197px;
+    margin-top: 245px;
     margin-left: 100px;
 }
 
 .second p {
     color: white;
-    line-height: 13px;
+    line-height: 23px;
     font-size: 20px;
 }
 
@@ -1192,51 +1184,56 @@ body {
 }
 
 .third {
-    margin-top: 197px;
+    margin-top: 245px;
     margin-left: 100px;
 }
 
 .third p {
     color: white;
-    line-height: 13px;
+    line-height: 23px;
     font-size: 20px;
 }
 
 .apps {
-    margin-top: 107px;
-    margin-left: 258px;
+    margin-top: 487px;
+    margin-left: -640px;
+    flex-direction: column;
+    max-width: 200px;
 }
 
 .stupid9 {
     margin-bottom: 12px;
-    margin-right: 13px;
+    margin-left: 9px;
 }
 
 .app-list2 {
-    margin-top: 30px;
-    margin-left: 258px;
+    margin-top: -360px;
+    margin-left: 78px;
+    column-count: 2; 
 }
 
 .app-list2 img {
-    margin-right: 67px;
+    margin-right: 45px;
+    margin-bottom: 17px;
 }
 
 .app2 {
     width: 40px;
     height: 40px;
+    flex: 1;
 }
 
 .what {
     color: white;
     font-size: 20px;
-    margin-left: 258px;
+    margin-left: 78px;
     line-height: 30px;
 }
 
 .from {
     color: white;
     font-size: 20px;
-    margin-left: 258px;
+    margin-left:78px;
     margin-top: 70px;
 }
 }
